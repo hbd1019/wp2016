@@ -22,7 +22,6 @@ right: 20px
 
 p:hover {
 color: pink;
-img : "http://c8.staticflickr.com/6/5268/30125911335_5ac0f6aae4_b.jpg"
   }
 
 img {
@@ -33,3 +32,4 @@ img:hover {
 opacity: 1.0;
 filter: alpha(opacity=100);
     }
+
