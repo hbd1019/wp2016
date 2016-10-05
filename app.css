@@ -33,4 +33,6 @@ opacity: 1.0;
 filter: alpha(opacity=100);
     }
 
-<embed src="http://m1509.wapka-file.com//g03/music/30610944/2692558/ded4qHromkuWjN2QLKGT%5E27zTKhTl1HYlS0ve81xYj5zu7ei%5EA/2dbcf.mp3?md5=YPtAofx3qjc1aKc3HUBJlA&expires=1475909176" autostart="true" loop="1" volume="50" hidden="true"></embed>
+audio { 
+   display:none;
+}
