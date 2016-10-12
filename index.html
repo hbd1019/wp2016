@@ -4,7 +4,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
-    $("button").click(function(){
+    $("#p1").mouseenter(function(){
         $("#div1").fadeToggle(1000);
         $("#div2").fadeToggle(1250);
         $("#div3").fadeToggle(1500);
@@ -17,12 +17,14 @@ $(document).ready(function(){
 <body>
 
 <h1>Yantinger</h1>
-<botton><img src="http://i.imgur.com/iTTfD2X.png" alt="Forest" width="300" height="300"></botton>
-<div id="div1"><p>Name : Xu Yanting<br></div>
-Birth Date : 1995/10/19<br>
-Gender : Female<br>
-Hobbies：pop dance<br>
-Instagram：yanting_er<br></p>
+<img id="p1" src="http://i.imgur.com/iTTfD2X.png" alt="Forest" width="300" height="300">
+<p>Name : Xu Yanting<br>
+Birth Date : 1995/10/19<br></p>
+    
+<p id="div2">Gender : Female<br>
+Hobbies：pop dance<br></p>
+
+<p id="div3">Instagram：yanting_er<br></p>
 
 <audio controls loop autoplay>
   <source src="http://m1705.wapka-file.com//g03/music/49734572/2010002/5f57cEGrOUWFR4sYbXqa2KM7R%5ENoyyg94VkXqX5d4toFk9s7sQ/63cd7.mp3?md5=8ohUx4ocwP8aMvAY6EHLAA&expires=1476513508" type="audio/ogg">
