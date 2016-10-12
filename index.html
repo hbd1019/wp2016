@@ -1,13 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+    $("button").click(function(){
+        $("#div1").fadeToggle(1000);
+        $("#div2").fadeToggle(1250);
+        $("#div3").fadeToggle(1500);
+    });
+});
+</script>
+  
 <link rel=stylesheet type="text/css" href="app.css">
 </head>
 <body>
 
 <h1>Yantinger</h1>
-<img src="http://i.imgur.com/iTTfD2X.png" alt="Forest" width="300" height="300">
-<p>Name : Xu Yanting<br>
+<botton><img src="http://i.imgur.com/iTTfD2X.png" alt="Forest" width="300" height="300"></botton>
+<div id="div1"><p>Name : Xu Yanting<br></div>
 Birth Date : 1995/10/19<br>
 Gender : Female<br>
 Hobbies：pop dance<br>
