@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
+<h1>Yantinger</h1>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
@@ -9,14 +10,17 @@ $(document).ready(function(){
         $("#div2").fadeToggle(1250);
         $("#div3").fadeToggle(1500);
     });
+    $("head").hover(function(){
+            $("body").animate({
+            height: 'toggle'
+        });
+    });
 });
 </script>
   
 <link rel=stylesheet type="text/css" href="app.css">
 </head>
 <body>
-
-<h1>Yantinger</h1>
 <img id="p1" src="http://i.imgur.com/iTTfD2X.png" alt="Forest" width="300" height="300">
 
 <p id="div1">Name : Xu Yanting<br>
